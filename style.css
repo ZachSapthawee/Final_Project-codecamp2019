@@ -1,0 +1,214 @@
+@import url('https://fonts.googleapis.com/css?family=Sriracha&display=swap');
+
+
+*{
+    margin: 0;
+    padding: 0;
+    /* box-sizing: border-box; */
+    font-family: 'Kanit', sans-serif;
+    color: #777777
+}
+h1,h3,h4{
+    color: black;
+}
+nav{
+    width: 100%;
+    background: #24252a;
+    position: fixed;
+}
+.nav_links{
+    width: 80%;
+    margin: 0 auto;
+    padding: 0;
+    text-align: center;
+}
+.nav_links li {
+    list-style: none;
+    display: inline-block;
+    padding: 20px;
+}
+.nav_links li a {
+    transition: all 0.3s ease 0s;
+}
+.nav_links li a:hover{
+    color: #0088a9;
+}
+
+button{
+    padding: 9px 25px;
+    background-color: rgba(0, 136,169,1);
+    border: none;
+    border-radius: 50px;
+    cursor: pointer;
+    transition: all 0.3s ease 0s;
+}
+button:hover{
+    background-color: rgba(0, 136,169,0.8);
+}
+li,a,button{
+    font-family: 'Kanit', sans-serif;
+    font-weight: 300;
+    font-size: 16px;
+    color: #edf0f1;
+    text-decoration: none;
+}
+.toggle{
+    width: 100%;
+    padding: 10px 20px;
+    background: #24252a;
+    text-align: right;
+    box-sizing: border-box;
+    color: #fff;
+    font-size: 30px;
+    display: none;
+}
+@media(max-width:768px){
+    .toggle{
+        display: block;
+    }
+    .nav_links{
+        width: 100%;
+        display: none;
+
+    }
+    .nav_links li {
+        display: block;
+        text-align: center;
+    }
+    a,button{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    .active{
+        display: block;
+    }
+}
+
+.banner_content{
+    font-size: 40px;
+    text-align: center;
+}
+.container{
+    display: block;
+    justify-content: center;
+    width: 90%;
+    padding-right: 15px;
+    padding-left: 15px;
+    margin-left: auto;
+    margin-right: auto;
+}
+.row{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-right: 15px;
+    padding-left: 15px;
+}
+.home_right{
+    min-height: 1px;
+    padding-right: 15px;
+    padding-left: 15px;
+    display: flex;
+    justify-content: flex-end;
+}
+.home_left{
+    width: 90%;
+    min-height: 1px;
+    padding-right: 15px;
+    padding-left: 15px;
+}
+
+.profile{
+    width: 120%;
+}
+.text-uppercase{
+    text-transform: uppercase;
+}
+
+
+
+
+/* =========================================================================== */
+.resume_title{
+    margin: 0 20px;
+    font-size: 40px;
+    display: flex;
+    justify-content: center;
+}
+.radius_photo{
+    width: 180px;
+    border-radius: 60%;
+
+}
+.kku{
+    width: 120px;
+}
+
+.profile_photo{
+    /* border: 1px solid red; */
+    width: 300px;
+    display: flex;
+    justify-content: center;
+}
+.titel_name{
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    margin:  8px 0px;
+}
+.row_name{
+    margin: 3em;
+    display: flex;
+    justify-content: center;
+}
+.row_education{
+    margin: 3em;
+    display: flex;
+    justify-content: center;
+}
+.section_gap{
+    padding: 100px 0px;
+}
+
+.th{
+    display: flex;
+    justify-content: center;
+}
+.serial{
+    width: 20%;
+    padding-left: 290px;
+}
+.skill{
+    width: 60%;
+}
+.rating{
+    width: 25%;
+    padding-right: 50px;
+}
+.progress-table{
+    min-width: 800px;
+}
+.table-row_Center{
+    padding: 15px 0;
+    border-top: 1px solid #edf3fd;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.inlineLogo{
+    height: 2em;
+}
+.progress-table .skill img{
+    margin-right: 15px;
+    vertical-align: middle;
+}
+
+footer {
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: #24252a;
+    color: white;
+    text-align: center;
+  }

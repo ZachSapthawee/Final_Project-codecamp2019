@@ -1,0 +1,188 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet ">
+    <link rel="stylesheet" href="path/to/font-awesome/css/font-awesome.min.css">
+    <link rel="stylesheet" href="style.css">
+    <title>Final_Project_Resume</title>
+</head>
+<body>
+        <header>
+            <div class="container_nav">
+                <nav>
+                        <div class="toggle">
+                                <i class="fa fa-star" aria-hidden="true"></i>
+                        </div>
+                        <ul class="nav_links">
+                            <li><a href='#home_banner'>HOME</a></li>
+                            <li><a href="#resume">VIEW </a></li>
+                            <li><a href="#skills">SKILLS</a></li>
+                            <li><a href="#">COLORFUL MODE</a></li>
+                            <a class="ctn" href="mailto:p_sapthawee@kkumail.com.com?subject= from CodeCamp2019 Resume Webpage"><button>CONTACT</button></a>
+                        </ul>
+                </nav>
+            </div>
+        </header>
+        <section id="home_banner" class="home_banner_area">
+                <div id="bannerID" class="banner_inner">
+                    <div class="container">
+                        <div class="row">
+                            
+                            <div class="home_left">
+                                <div class="banner_content">
+                                    <h3 class="text-uppercase">======Hello======</h3>
+                                    <h1 class="text-uppercase">I am Sapthawee Phetsai</h1>
+                                    <h1 class="text-uppercase">(zak)</h1>                                    
+                                </div>
+                            </div>
+                            
+
+                            <div class="home_right">
+                                    <img class="profile" src="img/profile.png" alt="">
+                            </div>
+
+                        </div>
+                           
+                    </div>
+                </div>
+            </section>
+
+<!-- ==========================================================================================================
+                            ประวัติส่วนตัว
+            
+     ========================================================================================================== -->
+
+<section id="resume" class="home_banner_area section_gap">
+        <div id="bannerID" class="banner_inner">
+            <div class="container">
+                <div >
+                    <div class="resume_title">
+                            <h3 class="text-uppercase">ประวัติส่วนตัว</h3>
+                    </div>
+                    <div class="row_name">
+                        <div class="profile_photo">
+                            <img src="./img/52072559_1189643714528797_4638571040526565376_n.jpg" alt="" class="radius_photo">
+                        </div>
+                        <div class="titel_name">
+                            <div class>
+                                <h4>ชื่อ-นามสกุล</h4>
+                                <p>
+                                    ชื่อ-นามสกุล:
+                                        <span id="myName">นาย ทรัพย์ทวี  เพ็ชรสาย</span>
+                                       
+                                        <br>
+                                    ชื่อเล่น:
+                                        <span id="myNickname">แซ็ก</span>
+                                        
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="row_education">
+                            <div class="profile_photo">
+                                    <img src="./img/2013313105841.gif" alt="" class="kku">
+                                </div>
+                                <div class="titel_name">
+                                    <div class>
+                                        <h4>การศึกษา</h4>
+                                        <p>วิทยาการคอมพิวเตอร์และสารสนเทศ<br> 
+                                           วิทยาศาสตร์ประยุกต์และวิศวกรรมศาสตร์ <br> 
+                                           มหาวิทยาลัยขอนแก่น  วิทยาเขตหนองคาย
+                                        </p>
+                                    </div>
+                                </div>
+                    </div>
+                </div>
+                   
+            </div>
+        </div>
+    </section>
+<!-- ==========================================================================================================
+                            ประวัติส่วนตัว
+            
+     ========================================================================================================== -->
+
+     <section id="skills" class="home_banner_area section_gap">
+            <div id="bannerID" class="banner_inner">
+                <div class="container">
+                    <div >
+                        <div class="resume_title">
+                                <h3 class="text-uppercase">ความสามารถ</h3>
+                        </div>
+                        <div class="row_name">
+                                <div class="col-Center">
+                                        <div class="table-wrap">
+                                            <div id="skillTable" class="progress-table">
+                                                <div class="th">
+                                                    <div class="serial">ลำดับ</div>
+                                                    <div class="skill">ความสามารถ</div>
+                                                </div>
+                                                <div class="table-row_Center" onmouseover="imageEnlarge(this)" onmouseout="imageReset(this)">
+                                                    <div class="serial">01</div>
+                                                    <div class="skill"> <img src="img/html5.png" class="inlineLogo" alt="Html">Html</div>
+                                                </div>
+                                                <div class="table-row_Center" onmouseover="imageEnlarge(this)" onmouseout="imageReset(this)">
+                                                    <div class="serial">02</div>
+                                                    <div class="skill"> <img src="img/css3.svg" class="inlineLogo" alt="CSS3">CSS3</div>
+                                                </div>
+                                                <div class="table-row_Center" onmouseover="imageEnlarge(this)" onmouseout="imageReset(this)">
+                                                    <div class="serial">03</div>
+                                                    <div class="skill"> <img src="img/react.svg" class="inlineLogo" alt="react">React</div>
+                                                </div>
+                                                <div class="table-row_Center clickable highlightClickable" onmouseover="imageEnlarge(this)" onmouseout="imageReset(this)" onclick="addSkill()">
+                                                    <div class="serial">...</div>
+                                                    <div class="skill"><img src="img/terminal.png" class="inlineLogo" alt="more">
+                                                        เพิ่มความสามารถ
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                        </div>
+                    </div>
+                       
+                </div>
+            </div>
+        </section>
+
+        <footer class="footer">
+                <div class="wrapper wrapper-contact">
+                  <div class="footer-content columns">
+                    <div class="content-detail column">
+                      <br>
+                      <br>
+                      <br>
+                      <div class="detail-contact">
+                        <div>
+                          <a href="mailto:p_sapthawee@kkumail.com.com?subject= from CodeCamp2019 Resume Webpage" target="_blank" class="contact_icon"><i class="fa fa-envelope" aria-hidden="true"></i> p_sapthawee@kkumail.com</a>
+                        </div>
+                        <br>
+                        <div>
+                          <a href="https://www.facebook.com/zak.sapthawee/" target="_blank" class="contact_icon"><i class="fa fa-facebook-square" aria-hidden="true"></i> ZAK SAPTHAWEE/</a>
+                          </div>
+                      </div>
+                      <br>
+                      <br>
+                      <br>
+                      <br>
+                    </div>
+                  </div>
+                </div>
+              </footer>
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script  type="text/javascript">
+        $(document).ready(function(){
+            $('.toggle').click(function(){
+                // alert("The paragraph was clicked.");
+                $('.nav_links').toggleClass('active');
+            });
+        });
+    </script>
+</body>
+</html>
+
+
